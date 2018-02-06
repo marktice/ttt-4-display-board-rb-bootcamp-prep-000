@@ -3,9 +3,9 @@
 def display_board (input)
   puts " #{input[0]} " + "|" + " #{input[1]} " + "|" + " #{input[2]} "
   puts "-"*11
-  print " #{input[3]} " + "|" + " #{input[4]} " + "|" + " #{input[5]} \n"
+  puts " #{input[3]} " + "|" + " #{input[4]} " + "|" + " #{input[5]} "
   puts "-"*11
-  print " #{input[6]} " + "|" + " #{input[7]} " + "|" + " #{input[8]} \n"
+  puts " #{input[6]} " + "|" + " #{input[7]} " + "|" + " #{input[8]} "
   
 end
 
